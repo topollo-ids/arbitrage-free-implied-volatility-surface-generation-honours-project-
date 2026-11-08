@@ -1,0 +1,11 @@
+# VolGAN, all parts. Install with:  python -m pip install -r requirements.txt
+# Tested with Python 3.11 and exactly these versions (Windows 11, CPU). Newer versions should work; record any
+# change, because run.json stores the versions each run was made with.
+torch==2.14.1          # CPU build is enough. For a CUDA GPU, install torch first from pytorch.org, then this file.
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.6
+openpyxl==3.1.5        # reads the Bloomberg .xlsx workbooks
+matplotlib==3.11.2
+tqdm==4.70.1
+jinja2==3.1.6          # pandas needs it to write the LaTeX tables
